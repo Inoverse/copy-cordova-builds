@@ -1,0 +1,36 @@
+{
+  "name": "copy-cordova-builds",
+  "version": "1.0.0",
+  "description": "Automatic copy APK files after build into builds folder in project root.",
+  "main": "copyBuildFIles.js",
+  "dependencies": { },
+  "peerDependencies": { },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "postuninstall": "node scripts/uninstall.js"
+  },
+  "author": "Aaron Czichon",
+  "license": "MIT",
+  "directories": { },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inoverse/copy-cordova-builds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Inoverse/copy-cordova-builds/issues"
+  },
+  "homepage": "https://github.com/Inoverse/copy-cordova-builds#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "build",
+    "cordova",
+    "cordova-build",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-android",
+    "cordova-windows",
+    "hooks",
+    "hook"
+  ]
+}
