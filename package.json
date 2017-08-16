@@ -1,7 +1,7 @@
 {
   "name": "copy-cordova-builds",
-  "version": "1.0.0",
-  "description": "Automatic copy APK files after build into builds folder in project root.",
+  "version": "1.1.0",
+  "description": "Automatic copy APK and IPA files after build into builds folder in project root.",
   "main": "copyBuildFIles.js",
   "dependencies": { },
   "peerDependencies": { },

@@ -14,7 +14,3 @@ Then add the following to your app's config.xml file:
 ```html
 <hook src="scripts/copyBuildFiles.js" type="after_build"/>
 ```
-
-## Supported platforms
-
-Currently only `APK` files (`Android` platform) are supported. `iOS` platform will be added soon.
